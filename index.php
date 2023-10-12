@@ -71,9 +71,8 @@
         </div>
     </div>
     <footer>
-        <center>&copy; Dibuat oleh <a href="http://grup-rgi.agungiky12.repl.co/" target="_blank"
-                rel="noopener noreferrer">KELAS
-                TKJ</a><br>
+        <center>&copy; Dibuat oleh <a href="https://www.tiktok.com/@maulana.h0nda?is_from_webapp=1&sender_device=pc" target="_blank"
+                rel="noopener noreferrer">Maulana Ayyubi</a><br>
             TKJ Angkatan ke-29 - <a href="http://rumahgemilang.com" target="_blank" rel="noopener noreferrer">RGI</a>
         </center>
     </footer>
