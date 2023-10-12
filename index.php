@@ -26,16 +26,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav" data-bs-toggle="pill">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="?m=home">Home</a>
+                            <a class="nav-link <?= ((isset($_GET['m']) and $_GET['m'] == 'home') ? 'active' : '') ?>" aria-current="page" href="?m=home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="?m=jurusan">Jurusan</a>
+                            <a class="nav-link <?= ((isset($_GET['m']) and $_GET['m'] == 'jurusan') ? 'active' : '') ?>" href="?m=jurusan">Jurusan</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="?m=siswa">Siswa</a>
+                            <a class="nav-link <?= ((isset($_GET['m']) and $_GET['m'] == 'siswa') ? 'active' : '') ?>" href="?m=siswa">Siswa</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="?m=matadiklat">matadiklat</a>
+                            <a class="nav-link <?= ((isset($_GET['m']) and $_GET['m'] == 'matadiklat') ? 'active' : '') ?>" href="?m=matadiklat">matadiklat</a>
                         </li>
                     </ul>
                 </div>
